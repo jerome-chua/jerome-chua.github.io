@@ -1,7 +1,7 @@
 # Portfolio
 ---
 Hi!  I'm Jerome, I was previously working as Data Analyst, now turned Software Engineer. I have worked on a range of projects from full-stack software engineering to machine learning. 
-More details can be found in their respective github repos (links included). If you'd like to know more, feel free to [get in touch](mailto:jerome.chuame@gmail.com), connect on [LinkedIn](https://www.linkedin.com/in/jeromechua/) or check out my [portfolio](jerome-chua.github.io), thanks! 
+More details can be found in their respective github repos (links included). If you'd like to know more, feel free to [get in touch](mailto:jerome.chuame@gmail.com), connect on [LinkedIn](https://www.linkedin.com/in/jeromechua/) or check out my [portfolio](https://jerome-chua.github.io/), thanks! 
 
 #### Content
 1. [Software Engineering](https://github.com/jerome-chua/jerome-chua.github.io)
