@@ -100,24 +100,24 @@
                 <div class="d-flex justify-content-between">
                   
                 <h1> 
-                  <a>Personal Finance Tracker</a>
+                  <a>Travel Planner</a>
                   </span>
                 </h1>
                 <div class='d-flex'>
                   <div class='text-center mr-3'>
                   <a
-                    href=https://savify.netlify.app/
+                    href=""
                     title=""
                     class="github mr-3"
                   >
-                    <span title="Personal Finance Tracker"
+                    <span title="Travel Planner"
                       ><i class="fa fa-external-link-square project-github-link text-center"></i></span
                   ></a>
-                  <div class='repo-label text-center'>Deployed App</div>  
+                <div class='repo-label text-center'>Deployed App</div>  
                   </div>
                   <div class='text-center'>
                   <a
-                    href=https://github.com/jerome-chua/pfintracker-frontend
+                    href=https://github.com/zephaniahong/travel-planner-frontend
                     title=""
                     class="github mr-3"
                   >
@@ -128,7 +128,7 @@
                   </div>
                   <div class='text-center'>
                   <a
-                    href=https://github.com/jerome-chua/pfintracker-backend
+                    href=https://github.com/jerome-chua/travelplanner-backend
                     title=""
                     class="github mr-3"
                   >
@@ -140,14 +140,14 @@
                   </div>
                 </div>
                 <p class="lead">
-                  A personal expense tracking app with analytics to monitor trends in transactions added by user
+                  A travel planning app where users add popular itinerary trip items from other users & Google searches to their planning board 
                 </p>
                 <div id="main-slider" class="owl-carousel owl-theme">
                   <div class="youtube-embed d-flex justify-content-center">
                     <iframe
                       width="853"
                       height="480"
-                      src="https://www.youtube.com/embed/dNp9IQR0bhY"
+                      src="https://www.youtube.com/embed/1-hfb2OCgQw"
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
@@ -155,62 +155,66 @@
                   </div>
                   <div class="item">
                     <img
-                      src="/img/portfolio/pfintracker-ss1.png"
+                      src="/img/portfolio/travelplanner-ss1.png"
                       alt=""
                       class="img-fluid"
                     />
                   </div>
                   <div class="item">
                     <img
-                      src="/img/portfolio/pfintracker-ss2.png"
+                      src="/img/portfolio/travelplanner.png"
                       alt=""
                       class="img-fluid"
                     />
                   </div>
                   <div class="item">
                     <img
-                      src="/img/portfolio/pfintracker-ss3.png"
+                      src="/img/portfolio/travelplanner-ss2.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="/img/portfolio/travelplanner-ss3.png"
                       alt=""
                       class="img-fluid"
                     />
                   </div>
                 </div>
                 <!-- /#main-slider-->
-                <h3>Features of the App</h3>
+                <h3>App Features</h3>
                 <ol>
-                  <li>&nbsp Log what user has spent on </li>
-                  <li>&nbsp User is able to observe which categories their spendings fall into eg. Food & Drinks </li>
-                  <li>&nbsp Add a note as to why they’ve spent on that time if they’d like </li>
-                  <li>&nbsp Analytics for spendings across all-time and any period of the user’s choice</li>
-                  <li>&nbsp Filter for day, week or month to inspect trends more closely</li>
+                  <li>&nbsp Explore other users' trips & itinerary for a certain country  </li>
+                  <li>&nbsp Save interesting itinerary activites, foods or sites to user's own list </li>
+                  <li>&nbsp Saved items can be added to a simple Pinterest-like board</li>
+                  <li>&nbsp Trip items can come from Google Search or from other users' trips</li>
+                  <li>&nbsp View all trips that are being planned</li>
                 </ol>
 
                 <h3>Technologies Used</h3>
                 <ul>
                   <li><b>Frontend:</b> React, Material-UI, JSS, HTML/CSS</li>
-                  <li><b>Backend:</b> PostgreSQL, Express, Sequelize</li>
+                  <li><b>Backend:</b> PostgresQL, Express, Sequelize</li>
                   <li><b>Version Control:</b> Git</li>                  
-                  <li><b>Other Libraries:</b> react-chartjs-2, csv-parse, moment, clsx, axios</li>                              
+                  <li><b>Other Libraries:</b> react-beautiful-dnd, react-google-maps, react-vector-maps, axios, styled-components</li>                              
                 </ul>
 
                 <h3>Challenges</h3>
                 <ul>
-                  <li>Balancing trade-offs between interesting features vs. MVP and base user flow
+                  <li>As this was a pair-project, alot of planning had be to clear from the onset. Initially faced coming to a concensus of what user stories the app was addressing, it was smooth-smailing once this was confirmed
                   </li>
-                  <li>Creating of custom hook at the start was later refactored to have code to be within the components itself to minimise re-rendering</li>
-                  <li>Organising structure of the code, and setting the time to plan ahead to create more resuable-friendly parent components
+                  <li>When creating the base user flow, we had to hard-code the user ID and trip ID, it was tedious going back to address this after MVP completed</li>
+                  <li>Places API had limitations distinguishing between sites & activties
                   </li>
-
                 </ul>
                 <h3>What I'd Do Differently</h3>
                 <ul>
-                  <li>Focus on getting MVP fully done first before moving on to add more features
+                  <li>Address hardcoded user ID and trip ID sooner and focus on creating a login page to "force" these issues to arise
                   </li>
-                  <li>Spend more time in planning components that could have been reusable
+                  <li>Would have ensured a base userflow first before doing up all the features and styling
                   </li>
-                  <li>Prioritising a budget planning feature out for a more robust app
-                  </li>
-                  <li>Refactor more often with every new branch merge
+                  <li>Be thorough about the components needed for each page
                   </li>
                 </ul>
               </div>
